@@ -1,0 +1,10 @@
+server.port=8501
+
+management.endpoints.web.exposure.include=health, info, refresh, bus-refresh, bus, env
+#服务注册中心地址
+spring.cloud.consul.host=127.0.0.1
+spring.cloud.consul.port=8500
+spring.cloud.consul.discovery.serviceName=server-module-a
+#ip地址
+spring.cloud.consul.discovery.prefer-ip-address=true
+spring.cloud.consul.discovery.ip-address=127.0.0.1
