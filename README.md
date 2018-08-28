@@ -1,0 +1,2 @@
+# consulConfig
+config server center
